@@ -65,7 +65,8 @@ be replaced by a double colon ('::') so that we write:
 The idea is that IPv6 addresses should be cut-and-pasted in almost all
 cases. If you ever do have to enter one manually, a great deal of care
 is needed. Note that not all implementations will strictly follow
-RFC9592, and older documentation often uses uppercase hexadecimal.
+[RFC5952](https://www.rfc-editor.org/info/rfc5952)), and older 
+documentation often uses uppercase hexadecimal.
 
 The choice of ':' as the separator is annoying in one particular case -
 when including an IPv6 address in a (Web) URL, where a colon has another
